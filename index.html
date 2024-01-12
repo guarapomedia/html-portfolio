@@ -3,46 +3,48 @@
 
 <head>
 
-  <title>Guarapo Media</title>
+  <title>John Doe</title>
   <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
 
   <!-- Primary Meta Tags -->
-  <meta name="title" content="Guarapo Media" />
-  <meta name="description" content="Digital Agency based on Barcelona" />
+  <meta name="title" content="John Doe" />
+  <meta name="description" content="Product Manages in Barcelona" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://guarapomedia.github.io/html-startpage/" />
-  <meta property="og:title" content="Guarapo Media" />
-  <meta property="og:description" content="Digital Agency based on Barcelona" />
+  <meta property="og:title" content="John Doe" />
+  <meta property="og:description" content="Product Manages in Barcelona" />
   <meta property="og:image" content="https://guarapomedia.github.io/html-startpage/assets/images/preview.jpg" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="https://guarapomedia.github.io/html-startpage/" />
   <meta property="twitter:title" content="Guarapo Media" />
-  <meta property="twitter:description" content="Digital Agency based on Barcelona" />
+  <meta property="twitter:description" content="Product Manages in Barcelona" />
   <meta property="twitter:image" content="https://guarapomedia.github.io/html-startpage/assets/images/preview.jpg" />
 
-  <!-- Icons import -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
-
-  <!-- Font import -->
+    <!--Bootstrap-->
+ <!-- <link href="./assets/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">  -->
+ 
+ <!-- Font import -->
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
   </style>
 
   <!-- Variables -->
   <style>
     :root {
-      --BgColor: #ffffff;
+      --BgColor: #E0E0DB;
       --PrimaryColor: #000000;
-      --BgCard: #f3f3f3;
-      --ButtonColor: #f3f3f3;
-      --ButtonText: #000000;
-      --ButtonRadius: 10px;
-      --FontFamily: Roboto, sans-serif;
+      --BgCard: #2A2829;
+      --ButtonColor: #2A2829;
+      --ButtonText: #f1f3f4;
+      --ButtonRadius: 4px;
+      --FontFamily: "Roboto", sans-serif;
     }
   </style>
 
@@ -50,99 +52,243 @@
   <link rel="stylesheet" href="./assets/css/styles.css" />
 
   <!--Animation-->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
 </head>
 
 <body>
 
-  <!-- Profile information -->
-  <div class="wrapper">
-    <div class="wrapper-profile" data-aos="zoom-in">
-      <div class="wrapper-profile-picture">
-        <img src="./assets/images/profile.jpg" alt="profile" />
-      </div>
-      <div class="wrapper-profile-title">@GuarapoMedia</div>
-      <div class="wrapper-profile-description">
-        Digital Marketing Agency
-      </div>
-      <div class="wrapper-profile-icons">
-        <a href="https://twitter.com/guarapomedia" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"
-            aria-label="social button"></i></a>
-        <a href="Https://instagram.com/guarapomedia" target="_blank" rel="noopener noreferrer"><i
-            class="fab fa-instagram" aria-label="social button"></i></a>
-        <a href="Https://github.com/guarapomedia" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"
-            aria-label="social button"></i></a>
-        <a href="Https://dribbble.com/guarapomedia" target="_blank" rel="noopener noreferrer"><i class="fab fa-dribbble"
-            aria-label="social button"></i></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Simple button -->
-  <div class="wrapper" data-aos="zoom-in">
-    <div class="button-card">
-      <a class="button-card-text" href="https://guarapomedia.com">
-        <div class="button-card-title">Guarapo Agency →</div>
+  <!-- Hero -->
+  <div class="hero">
+    <img class="hero-img" loading="lazy" src="./assets/images/hero.jpg" alt="A picture of John Doe" />
+    <div class="hero-wrapper">
+      <h1 class="text-white margin-small w-80">Hello, I'm John Doe</h1>
+      <div class="text-size-medium text-white margin-small w-80 hero-description">I'm a Product Manager based in Barcelona</div>
+      <a class="button" href="" target="_blank" rel="noopener noreferrer">
+        Contact me
       </a>
     </div>
   </div>
 
-  <!-- Titles -->
-  <div class="wrapper" data-aos="zoom-in">
-    <div class="paragraph">Projects</div>
-  </div>
 
-  <!-- Simple button -->
-  <div class="wrapper" data-aos="zoom-in">
-    <div class="button-card">
-      <a class="button-card-text">
-        <div class="button-card-title">Guatacanights.com →</div>
-        <div class="button-card-description">
-          The new sound of venezuelan music
+  <!-- Portfolio -->
+  <div class="margin-large"></div>
+  <div class="container px-0">
+    <div class="row g-0 ">
+      <div class="col-12">
+        <h2 class="text-center margin-medium">
+          This are my projects
+        </h2>
+      </div>
+    </div>
+    <div class="row g-0">
+      <div class="col-12 col-md-4 margin-small">
+        <div class="p-4">
+          <img class="w-100 rounded-img" src="./assets/images/portfolio/1.jpg" alt="..." />
+          <div class="text-size-large">Guarapo Media</div>
+          <p class="text-size-small">2023</p>
         </div>
-      </a>
+      </div>
+      <div class="col-12 col-md-4 margin-small">
+        <div class="p-4">
+          <img class="w-100 rounded-img" src="./assets/images/portfolio/2.jpg" alt="..." />
+          <div class="text-size-large">Guataca Nights</div>
+          <p class="text-size-small">2020</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 margin-small">
+        <div class="p-4">
+          <img class="w-100 rounded-img" src="./assets/images/portfolio/3.jpg" alt="..." />
+          <div class="text-size-large">EBB and Flow</div>
+          <p class="text-size-small">2019</p>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!-- Simple button with feature image -->
-  <div class="wrapper" data-aos="zoom-in">
-    <a href="https://wansite.co" target="_blank" rel="noreferrer">
-      <div class="button-card">
-        <img class="button-card-image" loading="lazy" src="./assets/images/wansite.jpg" alt="wansite" />
-        <div class="button-card-text">
-          <div class="button-card-title">
-            Wansite.co - Landing page builder
+<!-- Gallery-->
+<div class="margin-large"></div>
+<div class="container-fluid px-0">
+  <div class="row g-0">
+      <div class="col-12 col-lg-3">
+        <img class="square-img" src="./assets/images/gallery/1.jpg" alt="..." />
+      </div>
+      <div class="col-12 col-lg-3">
+        <img class="square-img" src="./assets/images/gallery/2.jpg" alt="..." />
+      </div>
+      <div class="col-12 col-lg-3">
+        <img class="square-img" src="./assets/images/gallery/3.jpg" alt="..." />
+      </div>
+      <div class="col-12 col-lg-3">
+        <img class="square-img" src="./assets/images/gallery/4.jpg" alt="..." />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Biography-->
+<div class="margin-large"></div>
+<div class="container px-0">
+  <div class="row g-0 ">
+    <div class="col-12">
+     
+    </div>
+  </div>
+  <div class="row g-0">
+      <div class="col-12 col-md-4">
+        <img class="img-fluid rounded-img mb-4" src="./assets/images/profile.jpg" alt="profile" />
+      </div>
+      <div class="col-12 col-md-8">
+        <div class="px-3">
+          <h2 class="margin-medium">
+            Biography
+          </h2>
+          <p class="text-size-medium margin-medium">John Doe is a talented musician from Barcelona who has been playing the guitar since he was 10 years old. He has performed in various local bands and has a passion for creating music that is both soulful and upbeat. Luis is known for his ability to blend different genres of music, including rock, jazz, and flamenco, to create a unique sound that is all his own. He is currently working on his first solo album, which is set to be released later this year.</p>
+          <a class="button" href="" target="_blank" rel="noopener noreferrer">
+            Book now
+          </a>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- Review-->
+<div class="margin-large"></div>
+<div class="container px-0">
+  <div class="row g-0 ">
+    <div class="col-12">
+      <h2 class="text-center margin-medium">
+        Testimonial
+      </h2>
+    </div>
+  </div>
+  <div class="row g-0 justify-content-center">
+    
+    <div class="col-12 col-md-4 mb-4">
+      <div class="d-flex flex-column p-3">
+        <div class="text-size-small mb-4">
+          I love this palce since day one. It is incredible and very delicous, I love this palce since day one. It is incredible and very delicous
+        </div>
+        <div class="d-flex flex-row">
+          <img class="review-img circle-img" src="./assets/images/testimonial/1.jpg" alt="..." />
+          <div class="d-flez flex-column">
+            <div class="text-size-medium">Alex</div>
+            <div class="text-size-small">Artist</div>
           </div>
         </div>
       </div>
-    </a>
-  </div>
+    </div>
+    <div class="col-12 col-md-4 mb-4">
+      <div class="d-flex flex-column p-3">
+        <div class="text-size-small mb-4">
+          I love this palce since day one. It is incredible and very delicous, I love this palce since day one. It is incredible and very delicous
+        </div>
+        <div class="d-flex flex-row">
+          <img class="review-img circle-img" src="./assets/images/testimonial/2.jpg" alt="..." />
+          <div class="d-flez flex-column">
+            <div class="text-size-medium">Alex</div>
+            <div class="text-size-small">Artist</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4 mb-4">
+      <div class="d-flex flex-column p-3">
+        <div class="text-size-small mb-4">
+          I love this palce since day one. It is incredible and very delicous, I love this palce since day one. It is incredible and very delicous
+        </div>
+        <div class="d-flex flex-row">
+          <img class="review-img circle-img" src="./assets/images/testimonial/3.jpg" alt="..." />
+          <div class="d-flez flex-column">
+            <div class="text-size-medium">Alex</div>
+            <div class="text-size-small">Artist</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4 mb-4">
+      <div class="d-flex flex-column p-3">
+        <div class="text-size-small mb-4">
+          I love this palce since day one. It is incredible and very delicous, I love this palce since day one. It is incredible and very delicous
+        </div>
+        <div class="d-flex flex-row">
+          <img class="review-img circle-img" src="./assets/images/testimonial/4.jpg" alt="..." />
+          <div class="d-flez flex-column">
+            <div class="text-size-medium">Alex</div>
+            <div class="text-size-small">Artist</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4 mb-4">
+      <div class="d-flex flex-column p-3">
+        <div class="text-size-small mb-4">
+          I love this palce since day one. It is incredible and very delicous, I love this palce since day one. It is incredible and very delicous
+        </div>
+        <div class="d-flex flex-row">
+          <img class="review-img circle-img" src="./assets/images/testimonial/5.jpg" alt="..." />
+          <div class="d-flez flex-column">
+            <div class="text-size-medium">Alex</div>
+            <div class="text-size-small">Artist</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4 mb-4">
+      <div class="d-flex flex-column p-3">
+        <div class="text-size-small mb-4">
+          I love this palce since day one. It is incredible and very delicous, I love this palce since day one. It is incredible and very delicous
+        </div>
+        <div class="d-flex flex-row">
+          <img class="review-img circle-img" src="./assets/images/testimonial/6.jpg" alt="..." />
+          <div class="d-flez flex-column">
+            <div class="text-size-medium">Alex</div>
+            <div class="text-size-small">Artist</div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <!-- Simple button with feature image -->
-  <div class="wrapper" data-aos="zoom-in">
-    <div class="button-card">
-      <img class="button-card-image" loading="lazy" src="./assets/images/nanos.webp" alt="Nanos" />
-      <a class="button-card-text">
-        <div class="button-card-title">Cultura Nanos →</div>
-        <div class="button-card-description">kindergarten</div>
-      </a>
+  </div>
+</div>
+
+  <!-- Footer -->
+
+<div class="margin-large"></div>
+  <div class="container-fluid bg-main px-0 py-5">
+    <div class="container">
+      <div class="row g-0">
+        <div class="col-12 col-md-6">
+          <h3>La Escuela</h3>
+          <p>Centro de Formación Cultural</p>
+        </div>
+        <div class="contact-border col-12 col-md-6">
+          <div class="mb-3">
+            <h3>Contacto</h3>
+            <div class="text-size-small">Email: <a class="mb-2" href="/">me@email.com</a></div>
+            <div class="text-size-small">Dirección: <span class="mb-2">Barcelona, Spain</span>
+            </div>
+          </div>
+          <div class="social-contact">
+            <a class="me-3" href="/" target="_blank" rel="noopener noreferrer"><i class="fab fa-2x fa-x-twitter"></i></a>
+            <a class="me-3" href="/" target="_blank" rel="noopener noreferrer"><i class="fab fa-2x fa-instagram"></i></a>
+            <a class="me-3" href="/" target="_blank" rel="noopener noreferrer"><i class="fab fa-2x fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!-- Footer -->
-  <div class="wrapper">
+  <div class="container px-0 text-center">
     <a href="https://guarapomedia.com" target="_blank" rel="noreferrer">
       <img class="brand-logo" src="./assets/images/guarapomedia.svg" alt="guarapo media" />
     </a>
   </div>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 600,
-      easing: 'ease-in-sine',
-      once: true,
-    });
-  </script>
+
 </body>
 
 </html>

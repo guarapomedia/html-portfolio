@@ -4,9 +4,9 @@
 
 ![image](./assets/images/preview.jpg)
 
- **Startpage** is an **HTML template** with a simple design for our own website builder [Wansite.co](https://wansite.co). We create this template for those who want to have all the information in one place and with a simple design so the user knows where needs to go.
+ **Portfolio** is an **HTML template** with a simple design for our own website builder [Wansite.co](https://wansite.co). We create this template for those who want to have all the information in one place and with a simple design so the user knows where needs to go.
 
-**Startpage** has 3 different types of components, profile, button, and Titles. It can be customized with CSS variables so you can choose the best color.
+**Portfolio** has 6 different types of components, Hero, Biography, Portfolio, gallery, testimonio and contact. It can be customized with CSS variables so you can choose the best color.
 
 This design is the result of looking at different referents and getting the most important part of each one and creating a unique and modern template. 
 
@@ -27,17 +27,17 @@ This design is the result of looking at different referents and getting the most
 
 ## Demo
 
-[Demo site](https://guarapomedia.github.io/html-startpage/)
+[Demo site](https://guarapomedia.github.io/html-portfolio/)
 
 ## Quick start
 
-- [Download from Github](https://guarapomedia.github.io/html-startpage/).
+- [Download from Github](https://guarapomedia.github.io/html-portfolio/).
 - [Download from Guarapo Media](https://guarapomedia.com).
-- Clone the repo: `git clone https://github.com/guarapomedia/html-startpage.git`.
+- Clone the repo: `git clone https://github.com/guarapomedia/html-portfolio.git`.
 
 ## Features
 
-- [Animation on scroll](https://github.com/michalsnik/aos/tree/v2)
+- [Animation](https://animate.style/)
 - [Font awesome](https://fontawesome.com/)
 
 ## Themes
