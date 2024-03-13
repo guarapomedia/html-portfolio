@@ -1,8 +1,8 @@
 # [Portfolio]() [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.guarapomedia.com/product/startpage&text=Check%20Startpage%20made%20by%20@GuarapoMedia%20#html%20https://www.guarapomedia.com/product/material-kit)
 
-![version](https://img.shields.io/badge/version-0.0.1-blue.svg)
+![version](https://img.shields.io/badge/version-0.0.2-blue.svg)
 
-![image](./assets/images/preview.jpg)
+![image](./assets/images/preview-readme.jpg)
 
  **Portfolio** is an **HTML template** with a simple design for our own website builder [Wansite.co](https://wansite.co). We create this template for those who want to have all the information in one place and with a simple design so the user knows where needs to go.
 
